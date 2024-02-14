@@ -515,7 +515,7 @@ awful.screen.connect_for_each_screen(function(s)
                 spacing = 1,
                 block(M.group(s.menus.screenshot)),
                 block(M.group(s.menus.cheat)),
-                block(M.group(s.menus.word)),
+                block(M.group(s.menus.vocab)),
                 block(M.group(s.menus.clip)),
                 block(M.group(s.menus.pass)),
                 block(M.group(s.menus.mark)),
